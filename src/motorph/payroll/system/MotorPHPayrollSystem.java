@@ -317,12 +317,12 @@ public class MotorPHPayrollSystem {
 
     double premium = monthlyGrossSalary * 0.03;
 
-           if (premium < 300) {  premium = 300 / 2; }
+           if (premium < 300) {  premium = 300; }
 
        
-           if (premium > 1800) { premium = 1800 / 2;}
+           if (premium > 1800) { premium = 1800;}
         
-           return premium;
+           return premium / 2;
 }
         
         // Method to Call PagIbig Deduction
@@ -361,3 +361,4 @@ public class MotorPHPayrollSystem {
 }
 
    
+
