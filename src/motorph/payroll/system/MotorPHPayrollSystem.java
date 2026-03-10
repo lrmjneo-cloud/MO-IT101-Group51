@@ -317,10 +317,10 @@ public class MotorPHPayrollSystem {
 
     double premium = monthlyGrossSalary * 0.03;
 
-           if (premium < 300) {  premium = 300; }
+           if (premium < 300) {  premium = 300 / 2; }
 
        
-           if (premium > 1800) { premium = 1800;}
+           if (premium > 1800) { premium = 1800 / 2;}
         
            return premium;
 }
@@ -359,4 +359,5 @@ public class MotorPHPayrollSystem {
        return tax;
     }
 }
+
    
