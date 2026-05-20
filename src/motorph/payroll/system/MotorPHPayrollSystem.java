@@ -15,7 +15,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-public class Main {
+public class MotorPHPayrollSystem {
 
     static String empFile = "public/employee_details.csv";
     static String attendanceFile = "public/attendance_record.csv";
